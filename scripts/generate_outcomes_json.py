@@ -66,21 +66,21 @@ for k, gamedir in enumerate(gamedirs):
     oak_runs = int(data[12])
     if oak_runs > cin_runs:
         wname = "Oakland"
-        wtxtcolor = OAK_TXT_COLOR,
-        wbkgcolor = OAK_BKG_COLOR,
+        wtxtcolor = OAK_TXT_COLOR
+        wbkgcolor = OAK_BKG_COLOR
         wruns = oak_runs
         lname = "Cincinnati"
-        ltxtcolor = CIN_TXT_COLOR,
-        lbkgcolor = CIN_BKG_COLOR,
+        ltxtcolor = CIN_TXT_COLOR
+        lbkgcolor = CIN_BKG_COLOR
         lruns = cin_runs
     else:
         lname = "Oakland"
-        ltxtcolor = OAK_TXT_COLOR,
-        lbkgcolor = OAK_BKG_COLOR,
+        ltxtcolor = OAK_TXT_COLOR
+        lbkgcolor = OAK_BKG_COLOR
         lruns = oak_runs
         wname = "Cincinnati"
-        wtxtcolor = CIN_TXT_COLOR,
-        wbkgcolor = CIN_BKG_COLOR,
+        wtxtcolor = CIN_TXT_COLOR
+        wbkgcolor = CIN_BKG_COLOR
         wruns = cin_runs
 
     almanac_name = gamedir.split("/")[-1]
