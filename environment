@@ -1,0 +1,3 @@
+#!/bin/bash
+
+export INFINITE_PELICAN_HOME="${HOME}/infinite/infinite-cincinnati-pelican"
