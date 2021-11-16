@@ -93,13 +93,13 @@ new_index_html_table = []
 eras = [
     "1972 Strategy Engine",
     "1942 Strategy Engine",
-    "1982 Strategy Engine",
+    "1912 Strategy Engine",
     "1997 Strategy Engine",
     "2017 Strategy Engine",
 ]
 for i, outcome in enumerate(outcomes_json):
-    if i%11==0:
-        title_txt = f'<h2>{eras[i//11]}</h2>'
+    if i%7==0:
+        title_txt = f'<h2>{eras[i//7]}</h2>'
         new_index_html_table.append(title_txt)
         new_index_html_table.append(table_head)
 
@@ -118,7 +118,7 @@ for i, outcome in enumerate(outcomes_json):
     )
     new_index_html_table.append(table_row)
 
-    if i%11==10:
+    if i%7==6:
         new_index_html_table.append(table_tail)
 
 # Assemble the final index.html file
