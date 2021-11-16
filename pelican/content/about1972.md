@@ -13,7 +13,7 @@ Date: 2000-01-01 00:00
 
 [1972 World Series @ baseball-almanac.com](https://www.baseball-almanac.com/ws/yr1972ws.shtml)
 
-### 1997 World Series Game 3
+### 1972 World Series Game 4
 
 [1972 World Series Game 4 @ baseball-reference.com](https://www.baseball-reference.com/boxes/OAK/OAK197210190.shtml)
 
