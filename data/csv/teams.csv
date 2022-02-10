@@ -1,0 +1,3 @@
+team_id,name,abbr,nickname,logo_file_name,city_id,park_id,league_id,sub_league_id,division_id,nation_id,parent_team_id,level,prevent_any_moves,human_team,human_id,gender,background_color_id,text_color_id,ballcaps_main_color_id,ballcaps_visor_color_id,jersey_main_color_id,jersey_away_color_id,jersey_secondary_color_id,jersey_pin_stripes_color_id,allstar_team,historical_id
+1,"Cincinnati 1972","CIN1972","Reds","cincinnati_1972_reds.png",13776,1,100,0,0,206,0,1,0,1,1,0,"#D50032","#FFFFFF","#D50032","#FFFFFF","#FFFFFF","#AAAAAA","#D50032","#D50032",0,"CIN"
+2,"Oakland 1972","OAK1972","Athletics","oakland_1972_athletics.png",56459,2,100,1,0,206,0,1,0,1,1,0,"#00843D","#FFCD00","#00843D","#FFCD00","#FFFFFF","#AAAAAA","#00843D","#00843D",0,"OAK"
