@@ -1,2 +1,4 @@
 pelican/output
 data/ici
+__pycache__
+pelican/infinite-cleveland-pelican-theme
