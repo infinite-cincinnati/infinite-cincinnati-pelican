@@ -12,7 +12,7 @@ GH_REPO="infinitecincinnati.com"
 DOM="infinitecincinnati.com"
 
 # This is machine-dependent (SSH config)
-GH_URL="ch4zm.github.com"
+GH_URL="github.com"
 DRY_RUN=""
 
 if [ -z ${INFINITE_PELICAN_HOME+x} ]; then
@@ -76,7 +76,7 @@ if [[ $DRY_RUN == "--dry-run" ]]; then
     echo "Skipping push step, --dry-run flag present"
 else
     echo "Pushing to remote"
-    GIT_SSH_COMMAND="ssh -i $HOME/.ssh/id_rsa_ch4zm -o IdentitiesOnly=yes -o StrictHostKeyChecking=no" git push origin gh-pages
+    git push origin gh-pages
 fi
 )
 
